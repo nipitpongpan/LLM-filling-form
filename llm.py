@@ -6,7 +6,7 @@ import json
 import openai
 import utils
 
-json_file_current_form = "result/current.json"
+json_file_current_form = " data/current.json"
 model = "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo"
 
 def set_i765_1st_page(reason=None, legal_names=None, is_g28_attached=None, uscis_online_account_number=None):
