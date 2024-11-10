@@ -10,8 +10,6 @@ import subprocess
 
 uploaded_file = "result/i-765_decrypt (1).pdf"
 
-mixer.init()
-
 st.set_page_config(page_title="PDF form filling", page_icon="📖", layout="wide")
 st.header("I-765 Form Filling")
 
@@ -74,11 +72,12 @@ if together_api_key:
 
         st.session_state.messages.append({"role": "assistant", "avatar": "🤖", "content": response})
 
-        speak = gTTS(text=response, slow=False)
-        audio_file_name = "audio/captured_voice.mp3"
-        speak.save(audio_file_name)
-        mixer.music.load(audio_file_name)
-        mixer.music.play()
+        # speak = gTTS(text=response, slow=False)
+        # audio_file_name = "audio/captured_voice.mp3"
+        # speak.save(audio_file_name)
+        # mixer.init()
+        # mixer.music.load(audio_file_name)
+        # mixer.music.play()
 
 # clear data cache
 st.cache_data.clear()
