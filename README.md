@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+=======
+<img width="1410" alt="image" src="https://github.com/user-attachments/assets/54fc7ab5-92a3-4e66-b4e9-e4adc6c3a657">
+
+>>>>>>> 56d5dbc (Create README.md)
 # I-765 Form Filler with Llama and Together API
 
 This repository hosts a **Streamlit** application designed to help users complete the **I-765 form**. It uses **Llama** through the Together API to automate and streamline the form-filling process, providing an accessible and efficient experience.
 
+<<<<<<< HEAD
 <img width="1410" alt="image" src="https://github.com/user-attachments/assets/54fc7ab5-92a3-4e66-b4e9-e4adc6c3a657">
 
+=======
+>>>>>>> 56d5dbc (Create README.md)
 ## Features
 
 - **Auto-fill Assistance**: Uses Llama to understand user inputs and populate I-765 form fields accurately.
