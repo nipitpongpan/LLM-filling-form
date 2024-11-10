@@ -1,0 +1,15 @@
+pylint
+pytest
+pytest-cov
+click
+python-dotenv
+pypdf
+black
+streamlit
+streamlit-chat==0.0.2.2
+tiktoken
+streamlit-javascript
+gTTs
+gTTS-token
+pyaudio==0.2.14
+pygame
