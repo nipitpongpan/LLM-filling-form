@@ -78,7 +78,7 @@ if together_api_key:
         audio_file_name = "audio/captured_voice.mp3"
         speak.save(audio_file_name)
         mixer.music.load(audio_file_name)
-        # mixer.music.play()
+        mixer.music.play()
 
 # clear data cache
 st.cache_data.clear()
