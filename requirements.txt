@@ -13,3 +13,4 @@ gTTs
 gTTS-token
 pyaudio==0.2.14
 pygame
+openai
